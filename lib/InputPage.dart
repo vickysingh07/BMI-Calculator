@@ -68,17 +68,18 @@ class _InputPageState extends State<InputPage> {
             colour: activeCardColour,
             cardChild: Column(
               mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.baseline,
-              textBaseline: TextBaseline.alphabetic,
               children: [
                 Text(
                   "HEIGHT",
                   style: labelTextStyle,
                 ),
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.baseline,
+                  textBaseline: TextBaseline.alphabetic,
                   children: [
                     Text(
-                      "180",
+                      height.toString(),
                       style:
                           TextStyle(fontSize: 50, fontWeight: FontWeight.w900),
                     ),
