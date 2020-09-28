@@ -82,6 +82,7 @@ class _InputPageState extends State<InputPage> {
                   children: [
                     Text(
                       height.toString(),
+                      style: NumberTextStyle,
                     ),
                     Text("cm", style: labelTextStyle)
                   ],
@@ -166,7 +167,7 @@ class _InputPageState extends State<InputPage> {
                         style: labelTextStyle,
                       ),
                       Text(
-                        weight.toString(),
+                        age.toString(),
                         style: NumberTextStyle,
                       ),
                       Row(
